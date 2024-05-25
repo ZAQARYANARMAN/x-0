@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+$borderColor: #2500FF;
+$textColor: #0f2d47;
+$backgroundColor: #0067FF;
+
+.top {
+    width: 100%;
+    background-color: rgb(22, 0, 146);
+    padding: 10px 0;
+    border: 3px solid $borderColor;
+
+    .accounDiv {
+        display: flex;
+        background-color: $borderColor;
+        width: 250px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+        .teamName {
+            text-align: center;
+            color: $textColor;
+            font-size: 15px;
+            color: $textColor;
+            width: 49%;
+            font-weight: 900;
+            padding: 5px 1px;
+            border: 3px solid $borderColor;
+        }
+
+        .accountText {
+            text-align: center;
+            background-color: $backgroundColor;
+            font-size: 19px;
+            color: $textColor;
+            width: 49%;
+            font-weight: 900;
+            padding: 5px 0;
+            border: 3px solid $borderColor;
+        }
+    }
+}
+
+
+.container {
+    display: flex;
+    max-width: 1540px;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(0, 6, 88);
+    align-items: center;
+    padding: 25px 0 0 0;
+
+
+    .div {
+        display: flex;
+        width: 500px;
+        height: 500px;
+        flex-wrap: wrap;
+        margin: 0 auto 33px auto;
+    
+    
+        .subdiv {
+            display: flex;
+            width: calc(100% / 3);
+            height: calc(100% / 3);
+            color: $textColor;
+            font-size: 50px;
+            background-color: $backgroundColor;
+            justify-content: center;
+            align-items: center;
+            border: 9px solid $borderColor;
+        }
+    }
+
+
+    .gameAgain {
+        font-size: 30px;
+        color: $textColor;
+        width: 100%;
+        background-color: $backgroundColor;
+        font-weight: 900;
+        padding: 10px 0;
+        border: 5px solid $borderColor;
+    }
+}
