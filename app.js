@@ -4,6 +4,15 @@ let gameAgain = document.getElementById('gameAgain')
 
 let accountText1 = document.getElementById('accountText1')
 
+
+
+
+
+
+
+
+
+
 let accountText2 = document.getElementById('accountText2')
 
 let div = document.getElementById('div')
